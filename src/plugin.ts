@@ -5,7 +5,7 @@ import type { Plugin } from 'rollup';
 export const plugin = (): Plugin => ({
 	name: 'vite-plugin-js-imports',
 	resolveId(importee, importer) {
-		if (importer?.includes('/node_modules/')) {
+		if (importer?.includes('node_modules')) {
 			return importee;
 		}
 
