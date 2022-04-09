@@ -1,7 +1,7 @@
 {
 	"name": "vite-plugin-js-imports",
 	"version": "0.0.0",
-	"description": ".js imports in Vite",
+	"description": "Allow importing TypeScript files using the `.js` extension in Vite",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
