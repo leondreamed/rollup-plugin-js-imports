@@ -16,6 +16,7 @@
 	"type": "module",
 	"exports": "./index.js",
 	"scripts": {
+		"release": "lionp",
 		"prepare": "lion-git-hooks",
 		"build": "node-ts ./scripts/build.ts",
 		"start": "node-ts ./src/index.ts",
@@ -37,5 +38,8 @@
 		"vite": "^2.9.1",
 		"vitest": "^0.8.3",
 		"vue": "^3.2.31"
+	},
+	"publishConfig": {
+		"directory": "dist"
 	}
 }
