@@ -5,8 +5,8 @@ import type { Plugin } from 'rollup';
 export const plugin = (): Plugin => ({
 	name: 'vite-plugin-js-imports',
 	resolveId(importee, importer) {
-		if (importer?.includes('node_modules')) {
-			return importee;
+		if (importer?.includes('/node_modules/')) {
+			return;
 		}
 
 		importee =
@@ -14,8 +14,11 @@ export const plugin = (): Plugin => ({
 				? importee
 				: path.resolve(path.dirname(importer), importee);
 
-		if (importee.endsWith('.js') && !fs.existsSync(importee)) {
-			return importee.replace(/\.js$/, '.ts');
+		if (importee.endsWith('.js')) {
+			const tsFile = importee.replace(/\.js$/, '.ts');
+			if (fs.existsSync(tsFile)) {
+				return tsFile;
+			}
 		}
 	},
 });

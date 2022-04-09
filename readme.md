@@ -14,7 +14,6 @@ import vue from '@vitejs/plugin-vue';
 import jsImports from 'vite-plugin-js-imports';
 
 export default defineConfig({
-	plugins: [vue(), jsImports()]
+	plugins: [vue(), jsImports()],
 });
 ```
-
