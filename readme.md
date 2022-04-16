@@ -1,6 +1,6 @@
 # vite-plugin-js-imports
 
-[![npm version](https://badge.fury.io/js/vite-plugin-js-imports.svg)](https://badge.fury.io/js/vite-plugin-js-imports)
+[![npm version](https://img.shields.io/npm/v/vite-plugin-js-imports)](https://npmjs.com/package/vite-plugin-js-imports)
 
 ## Installation
 
