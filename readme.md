@@ -1,5 +1,7 @@
 # vite-plugin-js-imports
 
+[![npm version](https://badge.fury.io/js/vite-plugin-js-imports.svg)](https://badge.fury.io/js/vite-plugin-js-imports)
+
 ## Installation
 
 ```shell
