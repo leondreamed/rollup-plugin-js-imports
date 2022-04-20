@@ -1,6 +1,6 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import type { Plugin } from 'rollup';
+import type { Plugin } from 'vite';
 
 export const plugin = (): Plugin => ({
 	name: 'vite-plugin-js-imports',
