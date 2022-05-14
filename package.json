@@ -1,13 +1,13 @@
 {
-	"name": "vite-plugin-js-imports",
+	"name": "rollup-plugin-js-imports",
 	"version": "1.1.1",
-	"description": "Allow importing TypeScript files using the `.js` extension in Vite",
+	"description": "Allow importing TypeScript files using the `.js` extension and files with an extra `.js` extension in Rollup.",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/leonzalion/vite-plugin-js-imports.git"
+		"url": "https://github.com/leonzalion/rollup-plugin-js-imports.git"
 	},
-	"homepage": "https://github.com/leonzalion/vite-plugin-js-imports#readme",
+	"homepage": "https://github.com/leonzalion/rollup-plugin-js-imports#readme",
 	"author": {
 		"name": "Leon Si",
 		"email": "contact@leonzalion.com",
