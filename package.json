@@ -30,7 +30,6 @@
 		"@vitejs/plugin-vue": "^2.3.3",
 		"desm": "^1.2.0",
 		"execa": "^6.1.0",
-		"lion-system": "^1.3.29",
 		"typescript": "^4.6.4",
 		"vite": "^2.9.9",
 		"vitest": "^0.12.6",
