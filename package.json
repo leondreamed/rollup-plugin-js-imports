@@ -17,7 +17,6 @@
 	"exports": "./src/index.ts",
 	"scripts": {
 		"release": "lionp",
-		"prepare": "lion-git-hooks",
 		"build": "ts-node ./scripts/build.ts",
 		"start": "ts-node ./src/index.ts",
 		"test": "vitest run",
