@@ -1,6 +1,6 @@
 {
 	"name": "rollup-plugin-js-imports",
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"description": "Allow importing TypeScript files using the `.js` extension and files with an extra `.js` extension in Rollup.",
 	"license": "MIT",
 	"repository": {
