@@ -1,8 +1,8 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import type { Plugin } from 'vite';
+import type { Plugin } from 'rollup';
 
-export const plugin = (): Plugin => ({
+export const plugin = () => ({
 	name: 'js-imports',
 	resolveId(importee, importer) {
 		if (importer?.includes('/node_modules/')) {
@@ -31,4 +31,4 @@ export const plugin = (): Plugin => ({
 			return nonExtensionFile;
 		}
 	},
-});
+} satisfies Plugin);
